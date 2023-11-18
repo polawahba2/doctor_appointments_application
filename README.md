@@ -1,16 +1,6 @@
 # doctor_appointments_application
 
-A new Flutter project.
+ [![System Design](https://img.shields.io/badge/System-Design-blue.svg)] System Design
 
-## Getting Started
+![image](https://github.com/polawahba2/doctor_appointments_application/assets/58266158/4693a358-13fd-4af5-a22f-770097db871a)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
