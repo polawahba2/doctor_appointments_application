@@ -59,6 +59,7 @@ dependencies:
   flutter_svg: ^2.0.9
   #help me to make responsive design
   flutter_screenutil: ^5.9.0
+  build_runner: ^2.4.7
 
 
 

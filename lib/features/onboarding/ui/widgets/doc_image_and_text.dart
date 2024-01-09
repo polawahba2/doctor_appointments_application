@@ -43,7 +43,7 @@ class DocImageAndText extends StatelessWidget {
                 Text(
                   'Best Doctor\nAppointment App',
                   textAlign: TextAlign.center,
-                  style: TextStyles.font33BlueBlod.copyWith(height: 1.5.h),
+                  style: TextStyles.font32BlueBold.copyWith(height: 1.5.h),
                 ),
                 SizedBox(
                   height: 15.h,
@@ -51,7 +51,7 @@ class DocImageAndText extends StatelessWidget {
                 Text(
                   'Manage and schedule all of your medical appointments easily with Docdoc to get a new experience.',
                   textAlign: TextAlign.center,
-                  style: TextStyles.font10GreyReqular,
+                  style: TextStyles.font13GrayRegular,
                 ),
               ],
             ),
