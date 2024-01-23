@@ -60,6 +60,7 @@ dependencies:
   #help me to make responsive design
   flutter_screenutil: ^5.9.0
   build_runner: ^2.4.7
+  pretty_dio_logger: ^1.3.1
 
 
 
