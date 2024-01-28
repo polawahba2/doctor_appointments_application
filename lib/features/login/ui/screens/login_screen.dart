@@ -8,8 +8,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../../../core/widgets/email_and_password.dart';
-import '../../../../core/widgets/login_bloc_listener.dart';
+import '../widgets/email_and_password.dart';
+import '../widgets/login_bloc_listener.dart';
 import '../../logic/cubit/login_cubit.dart';
 
 class LoginScreen extends StatelessWidget {
