@@ -2,7 +2,7 @@ import 'package:doctor_appointments_application/core/helpers/spacing.dart';
 import 'package:doctor_appointments_application/core/theming/text_styles.dart';
 import 'package:doctor_appointments_application/core/widgets/app_text_button.dart';
 import 'package:doctor_appointments_application/features/login/data/models/login_request_body.dart';
-import 'package:doctor_appointments_application/features/login/ui/widgets/already_have_account_text.dart';
+import 'package:doctor_appointments_application/features/login/ui/widgets/dont_have_an_account.dart';
 import 'package:doctor_appointments_application/features/login/ui/widgets/terms_and_conditions.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -57,7 +57,7 @@ class LoginScreen extends StatelessWidget {
                     const VerticalSpacing(16),
                     const TermsAndConditionsText(),
                     const VerticalSpacing(60),
-                    const AlreadyHaveAccountText(),
+                    const DontHaveAnAccount(),
                     const LoginBlocListener(),
                   ],
                 ),

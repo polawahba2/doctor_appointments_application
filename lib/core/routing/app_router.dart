@@ -3,6 +3,8 @@ import 'package:doctor_appointments_application/core/routing/app_routes.dart';
 import 'package:doctor_appointments_application/features/login/logic/cubit/login_cubit.dart';
 import 'package:doctor_appointments_application/features/login/ui/screens/login_screen.dart';
 import 'package:doctor_appointments_application/features/onboarding/ui/screens/onboarding_screen.dart';
+import 'package:doctor_appointments_application/features/signup/cubit/signup_cubit.dart';
+import 'package:doctor_appointments_application/features/signup/ui/screens/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -18,6 +20,13 @@ class AppRouter {
           builder: (_) => BlocProvider(
             create: (context) => getIt<LoginCubit>(),
             child: const LoginScreen(),
+          ),
+        );
+      case AppRoutes.signupScreen:
+        return MaterialPageRoute(
+          builder: (_) => BlocProvider(
+            create: (context) => getIt<SignupCubit>(),
+            child: const SignupScreen(),
           ),
         );
       case AppRoutes.homeScreen:
